@@ -245,3 +245,25 @@
             border-top: 1px solid #3a3a3a;
             color: #8B6F47;
         }
+          /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+            }
+
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .valores {
+                flex-direction: column;
+            }
+        }
